@@ -28,7 +28,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  
+
   font-size: 22px;
   font-weight: bold;
 }
@@ -153,7 +153,7 @@ body {
   height: 24px;
   width: 24px;
   margin-right: 12px;
-  background-image: url(/images/avatar.png);
+  background-image: url(images/avatar.png);
 }
 
 /* -------Trending Collection-------- */
@@ -204,7 +204,7 @@ body {
       content: "";
       height: 330px;
       width: 330px;
-      background-image: url(/images/dog.png);
+      background-image: url(images/dog.png);
     }
 
     &_7 {
@@ -224,7 +224,7 @@ body {
       content: "";
       height: 330px;
       width: 330px;
-      background-image: url(/images/onesmush.png);
+      background-image: url(images/onesmush.png);
     }
 
     &_6 {
@@ -244,7 +244,7 @@ body {
       content: "";
       height: 330px;
       width: 330px;
-      background-image: url(/images/bigMan1.png);
+      background-image: url(images/bigMan1.png);
     }
 
     &_6 {
@@ -342,10 +342,12 @@ body {
     font-weight: 600;
     margin-bottom: 10px;
   }
+
   &__subtitle {
     font-size: 22px;
     font-weight: 400;
   }
+
   &__button {
     background-color: transparent;
     border: 2px solid #a05bfb;
@@ -448,7 +450,7 @@ body {
     &:hover .browse__category-img-hover {
       display: block;
     }
-  
+
   }
 
   &__category-text {
@@ -572,6 +574,7 @@ body {
     content: "";
     background-image: url(images/eye.png);
   }
+
   &__cards {
     display: flex;
     justify-content: center;
@@ -639,6 +642,7 @@ body {
     margin-right: 12px;
     background-image: url(images/spaceone.png);
   }
+
   &__main-text {
     display: flex;
     justify-content: space-between;
@@ -737,10 +741,9 @@ body {
 
 
 .shroom {
- 
+
   display: flex;
-  justify-content: space-around
-  ;
+  justify-content: space-around;
   height: 640px;
   align-items: end;
   padding-bottom: 60px;
@@ -756,7 +759,7 @@ body {
   flex-direction: column;
   gap: 30px;
   align-items: flex-start;
-  
+
 }
 
 .character {
@@ -765,37 +768,41 @@ body {
   align-items: center;
   background-color: #3b3b3b;
   padding: 10px 20px;
-  border-radius: 20px ;
+  border-radius: 20px;
 }
 
 .shroom__header {
   font-family: Work Sans;
-font-size: 51px;
-font-style: normal;
-font-weight: 600;
-line-height: 110%; /* 56.1px */
-text-transform: capitalize;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  /* 56.1px */
+  text-transform: capitalize;
 }
 
 .shroom__button {
   padding: 22px 50px;
   background-color: #fff;
-  color:rgb(59, 59, 59);
+  color: rgb(59, 59, 59);
 }
 
 
 .shroom__button::before {
   background-image: url(images/eye.png);
 }
+
 .timer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 30px;
-  background-color: rgba(59, 59, 59, 0.50);;
+  background-color: rgba(59, 59, 59, 0.50);
+  ;
   justify-content: center;
   gap: 10px;
-  border-radius: 20px;;
+  border-radius: 20px;
+  ;
 }
 
 .timer__clock {
@@ -811,19 +818,20 @@ text-transform: capitalize;
 
 .timer__big {
   font-family: Space Mono;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; /* 45.6px */
-text-transform: capitalize;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 45.6px */
+  text-transform: capitalize;
 }
 
 .timer__small {
   font-family: Space Mono;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 110%;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
 }
 
 @media (max-width: 1024px) {
